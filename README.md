@@ -1,8 +1,7 @@
 # 5-Stage Pipelined MIPS Processor
 
 **Tools:** Quartus II · ModelSim · Altera Cyclone IV FPGA (DE2-115)  
-**Language:** Structural VHDL (RTL only: no behavioral modeling)  
-
+**Language:** Structural VHDL
 ---
 
 ## Overview
@@ -298,10 +297,8 @@ mips-pipelined-processor/
 
 Per CEG3156 Lab 3, Section 6:
 
-- VHDL only — Verilog not accepted
-- Structural RTL only — behavioral modeling not accepted  
+- VHDL only
+- Structural RTL only- except top-level entity
 - All atomic modules built from `enARdFF_2` primitives
 - LPM ROM (256×32) and LPM RAM DQ (256×32) permitted for memories only
-- All remaining building blocks designed and realized by the group
 - Synchronous design with global clock and asynchronous global reset throughout
-- Top-level I/O matches Table 1 of the lab handout
